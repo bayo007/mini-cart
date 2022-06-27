@@ -205,7 +205,7 @@ Cart
   padding: 0.5rem 1rem;
   color: var(--clr-red-dark);
   border: 1px solid var(--clr-red-dark);
-  margin-top: 2.25rem;
+  margin: 2.25rem;
   border-radius: var(--radius);
 }
 .clear-btn:hover {
@@ -318,7 +318,8 @@ hr {
   padding: 0.5rem 1rem;
   /* color: var(--clr-red-dark); */
   color:black;
-  margin-top: 2.25rem;
+  /* margin-top: 2.25rem; */
+  margin: 2.25rem;
   border-radius: var(--radius);
 }
 .Get-new{
