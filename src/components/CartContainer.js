@@ -11,10 +11,10 @@ const CartContainer = () => {
 //they are the data fetched from the API ,line 66 of the cartSlice;
 //the amount of the cart item for each one is 1, the amont inline 7 here is 4, it is the one used inline 45
 
-const handleClick=(e)=>{
-e.preventdefault;
-dispatch(getCartItems());
-}
+// const handleClick=(e)=>{
+// e.preventdefault;
+// dispatch(getCartItems());
+// }
 
   if (amount < 1) {
     return (
@@ -22,9 +22,8 @@ dispatch(getCartItems());
         <header className='cart'>
           <h2>your Phone list</h2>
           <h4 className='empty-cart'>is empty</h4>
-          <button className="Get-new" onClick={()=>handleClick()}> Get new order list </button>
+          <button className="Get-new" onClick={()=>{dispatch(getCartItems())}}> Get new order list </button>
         </header>
-        
       </section>
     );
   }
