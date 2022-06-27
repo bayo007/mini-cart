@@ -22,7 +22,7 @@ dispatch(getCartItems());
         <header className='cart'>
           <h2>your Phone list</h2>
           <h4 className='empty-cart'>is empty</h4>
-          <button className="Get-new" onClick={()=>handleClick}>Get new order list</button>
+          <button className="Get-new" onClick={()=>handleClick()}> Get new order list </button>
         </header>
         
       </section>
